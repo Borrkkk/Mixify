@@ -6,7 +6,7 @@ import Dashboard from './Dashboard';
 const code = new URLSearchParams(window.location.search).get('code');
 
 function App() {
-  return code ? <Dashboard code={code} /> : <Login/>
+  return code ? <Dashboard code={code} style={{height:"100vh", width:"100vw"}} /> : <Login/>
 }
 
 export default App;
