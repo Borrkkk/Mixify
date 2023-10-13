@@ -86,16 +86,16 @@ export default function Dashboard( {code}){
 
 
     return(
-       <Box backgroundColor={'pink'} >
-        <VStack spacing='20rem' >
+       <Box >
+        <VStack>
             
             <Button colorScheme='green' size='lg' onClick={onOpen}>
                 <a className = " btn btn-success btn-lg">Add a song</a>
             </Button>
-            <Box>
-                {mixtape.map(track => {
-                    <TrackSearchResult/>
-                })}
+            <Box width='30vw'>
+                {mixtape.map(track => (
+                    <MixtapeCreate track={track}/>
+                ))}
             </Box>
         </VStack>
         <Drawer

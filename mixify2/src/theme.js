@@ -11,6 +11,9 @@ const theme = extendTheme({
       body: {
         bg: mode("#ECE6C2",'gray.800')(props),
       },
+      '.create': {
+        bg: mode("white",'black')(props),
+      }
     }),
   },
 })

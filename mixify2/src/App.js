@@ -33,9 +33,9 @@ function App() {
   return (
     <ChakraProvider theme={theme}>    
     <ColorModeSwitcher/>
-    <Box paddingTop='15rem'>
-      <VStack spacing='5rem'>
-        <Heading fontSize='10rem'>
+    <Box paddingTop='5rem'>
+      <VStack spacing='2rem'>
+        <Heading fontSize='4rem'>
                   Title Here
                 </Heading>
       { code ?

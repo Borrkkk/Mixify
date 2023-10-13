@@ -8,7 +8,7 @@ export default function Login() {
         <div>
         <VStack spacing='5rem'>
 
-            <Text fontSize='3rem'>
+            <Text fontSize='2rem'>
                 Have a break. Have a kitkat
             </Text>
                 <Button colorScheme='green' size='lg'>
